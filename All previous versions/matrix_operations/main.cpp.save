@@ -1,0 +1,19 @@
+#include <iostream>
+#include "matrix.h"
+
+using namespace std;
+
+int main()
+{
+
+    matrix *o = new matrix;
+    matrix *oo = new matrix;
+    matrix *ooo = new matrix;
+
+    cin >> *o >> *oo;
+    cout << *ooo;
+
+    delete o; delete oo;
+    delete ooo;
+    return 0;
+}

@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1551472750 source:e:\computer science\college\year 2\datastructures\matrix calculator\generic matrix\main.cpp
+	<iostream>
+	"matrix.h"
+
+1551472542 source:e:\computer science\college\year 2\datastructures\matrix calculator\generic matrix\src\matrix.cpp
+	"matrix.h"
+
+1551471615 e:\computer science\college\year 2\datastructures\matrix calculator\generic matrix\include\matrix.h
+	<fstream>
+	<iostream>
+
+1551472542 source:e:\computer science\college\year 2\term 2\datastructures\assignments\matrix calculator\generic matrix\src\matrix.cpp
+	"matrix.h"
+
+1551471615 e:\computer science\college\year 2\term 2\datastructures\assignments\matrix calculator\generic matrix\include\matrix.h
+	<fstream>
+	<iostream>
+

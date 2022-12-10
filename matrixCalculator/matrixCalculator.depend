@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1551477175 source:e:\computer science\college\year 2\datastructures\matrix calculator\matrixcalculator\main.cpp
+	<iostream>
+	"matrixCalculator.h"
+
+1551478044 source:e:\computer science\college\year 2\datastructures\matrix calculator\matrixcalculator\src\matrixcalculator.cpp
+	"matrixCalculator.h"
+	"matrix.cpp"
+
+1551477392 e:\computer science\college\year 2\datastructures\matrix calculator\matrixcalculator\include\matrixcalculator.h
+	"matrix.h"
+	<iostream>
+
+1551471615 e:\computer science\college\year 2\datastructures\matrix calculator\matrixcalculator\include\matrix.h
+	<fstream>
+	<iostream>
+
+1551478287 e:\computer science\college\year 2\datastructures\matrix calculator\matrixcalculator\src\matrix.cpp
+	"matrix.h"
+
+1551477175 source:e:\computer science\college\year 2\term 2\datastructures\assignments\matrix calculator\matrixcalculator\main.cpp
+	<iostream>
+	"matrixCalculator.h"
+
+1551477392 e:\computer science\college\year 2\term 2\datastructures\assignments\matrix calculator\matrixcalculator\include\matrixcalculator.h
+	"matrix.h"
+	<iostream>
+
+1551471615 e:\computer science\college\year 2\term 2\datastructures\assignments\matrix calculator\matrixcalculator\include\matrix.h
+	<fstream>
+	<iostream>
+
+1551478044 source:e:\computer science\college\year 2\term 2\datastructures\assignments\matrix calculator\matrixcalculator\src\matrixcalculator.cpp
+	"matrixCalculator.h"
+	"matrix.cpp"
+
+1551478287 e:\computer science\college\year 2\term 2\datastructures\assignments\matrix calculator\matrixcalculator\src\matrix.cpp
+	"matrix.h"
+

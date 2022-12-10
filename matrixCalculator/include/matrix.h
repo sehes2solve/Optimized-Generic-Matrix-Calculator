@@ -1,0 +1,72 @@
+#ifndef MATRIX_H
+#define MATRIX_H
+
+#include <fstream>
+#include <iostream>
+
+using namespace std;
+
+template < class T >
+class matrix
+{
+    public:
+        /// constructors and destructor
+        matrix();
+        matrix( int _row , int _col , T _set = 0 , bool go = 1 );
+        matrix( T ** _copy_matrix , int _row , int _col );
+        matrix( matrix <T> & _copy_matrix );
+        virtual ~matrix();
+
+        /// setter and getters
+        int   get_row();
+        int   get_col();
+        T** get_matrix();
+
+        /// operators overloaded
+        matrix <T> & operator +  ( matrix <T> mat );
+        matrix <T> & operator -  ( matrix <T> mat );
+        matrix <T> & operator *  ( matrix <T> mat );
+
+        matrix <T> & operator += ( matrix <T> mat );
+        matrix <T> & operator -= ( matrix <T> mat );
+        matrix <T> & operator *= ( matrix <T> mat );
+
+        matrix <T> & operator +  ( int value );
+        matrix <T> & operator -  ( int value );
+        matrix <T> & operator *  ( int value );
+
+        matrix <T> & operator += ( int value );
+        matrix <T> & operator -= ( int value );
+        matrix <T> & operator *= ( int value );
+
+        matrix <T> & operator = ( matrix <T> mat );
+
+        bool operator == ( matrix <T> mat );
+        bool operator != ( matrix <T> mat );
+
+
+        template < class U > friend ostream& operator << ( ostream& out , matrix <U>   mat );
+        template < class U > friend istream& operator >> ( istream& in  , matrix <U> & mat );
+
+        /// functions
+        void memset_matrix( int val );
+        void transpose();
+
+    protected:
+
+    private:
+        int row , col;
+        T ** data;
+
+        void set_row( int _row );
+        void set_col( int _col );
+        void setRowCol( int _row , int _col );
+};
+
+#endif // MATRIX_H
+
+template < class U >
+ostream& operator << ( ostream& out , matrix <U>   mat );
+
+template < class U >
+istream& operator >> ( istream& in  , matrix <U> & mat );

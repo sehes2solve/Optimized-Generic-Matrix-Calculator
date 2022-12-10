@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1551469052 source:e:\computer science\college\year 2\datastructures\matrix calculator\matrix_operations\main.cpp
+	<iostream>
+	"matrix.h"
+
+1551468971 source:e:\computer science\college\year 2\datastructures\matrix calculator\matrix_operations\src\matrix.cpp
+	"matrix.h"
+
+1551465578 e:\computer science\college\year 2\datastructures\matrix calculator\matrix_operations\include\matrix.h
+	<fstream>
+	<iostream>
+
